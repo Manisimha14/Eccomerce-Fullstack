@@ -1,0 +1,32 @@
+.Toastify__toast {
+  background: #171717;
+  color: white;
+  border: 3px solid white;
+  border-radius: 0;
+  box-shadow: 6px 6px 0px #3b82f6;
+  font-family: sans-serif;
+  font-weight: 800;
+  padding: 16px;
+}
+
+.Toastify__toast--success {
+  border-color: white;
+}
+
+.Toastify__toast--error {
+  border-color: white;
+  box-shadow: 6px 6px 0px #ef4444;
+}
+
+.Toastify__toast-icon {
+  color: #3b82f6;
+}
+
+.Toastify__close-button {
+  color: white;
+  opacity: 1;
+}
+
+.Toastify__toast-container {
+  width: 350px;
+}
